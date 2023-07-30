@@ -18,7 +18,7 @@ import json
 import joblib
 
 
-def load_data(csv_path='/Users/leetaeryeong/Project1/model/abalone_model/2nd/Regression_data.csv', scaler=None, upsampling=None, TEST_SIZE=0.2, VAL_SIZE=0.2, RANDOM_STATE=42):
+def load_data(csv_path='https://raw.githubusercontent.com/urmd1f/Project1/main/data/Abal.csv', scaler=None, upsampling=None, TEST_SIZE=0.2, VAL_SIZE=0.2, RANDOM_STATE=42):
 
     # 글로벌로 만들어서 저장하기
     global df, X, y, X_train, X_val, X_test, y_train, y_val, y_test
